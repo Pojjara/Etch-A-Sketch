@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    box-shadow: 4px 6px 21px 5px #585858;
+    flex-direction: column;
+    max-width: 600;
+    max-height: 600;
+}
+.Rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    height: 15px;
+    width: 15px;
+    border: 1px solid rgb(156, 156, 156);
+}
+
+.square:hover {
+    background-color: black;
+}
+
+.hovered{
+    background-color: black;
+}
